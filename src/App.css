@@ -1,0 +1,105 @@
+*{ 
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+html{
+  font-size:62.5%;
+}
+
+.contact-container{
+  box-shadow: 0 0 2rem;
+  width: 70%;
+  margin:auto;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.contact-container h2{
+  text-transform: uppercase;
+  margin:2rem 0;
+  font-size:2rem;
+  letter-spacing: 1.4px;
+}
+
+ form{
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  gap: 1.2rem;
+  width: 60%;
+}
+input{
+  padding:1.3rem;
+}
+
+.button-area{
+  margin-top:1.9rem;
+  display: flex;
+  gap: 1.5rem;
+  justify-content: space-between;
+ 
+}
+
+.submit-button{
+ padding: 1.9rem;
+ align-items: center ;
+ justify-content: flex-end;
+ background-color: #20E0E3;
+ text-transform: capitalize;
+ border-radius: 6px;
+}
+
+.submit:hover{
+  background-color: #6a5cee;
+  cursor: pointer;
+  transition: .4s;
+  color: azure;
+}
+
+.contact-list{
+  width: 80%;
+  display: flex;
+  align-items: center;
+  justify-content:center;
+  flex-wrap: wrap;
+  flex-direction: row;
+}
+.contact-item{
+  margin: 2rem auto;
+  /* gap: 3rem; */
+  width: 40%;
+  padding: 1rem;
+  text-align: center;
+  box-shadow: 0 0 2rem;
+}
+
+.contact-list P{
+  font-size:1.9rem;
+  text-align: center;
+  line-height: 1.5;
+
+ 
+}
+
+button {
+  background-color: orange;
+  width: 15rem;
+  padding: 1rem;
+  text-transform: uppercase;
+  font-weight:bold;
+  margin-left: .5rem;
+}
+
+button:hover{
+  background-color: orangered;
+  cursor: pointer;
+  color: white;
+  transition: .4s;
+}
+.button-contacts{
+  display: flex;
+}
